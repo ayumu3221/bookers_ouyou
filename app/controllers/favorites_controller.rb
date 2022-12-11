@@ -13,5 +13,7 @@ class FavoritesController < ApplicationController
     @favorite.destroy
     #redirect_to request.referer
     
+    render 'create'
+    
   end
 end
